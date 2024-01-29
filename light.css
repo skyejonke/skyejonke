@@ -8,7 +8,7 @@
   --top-icon-size: Calc(var(--top-text-size) + 2vh);
   --top-height: Calc(var(--top-text-size) + 4vh);
 }
-@media (prefers-color-scheme: light) {
+/* @media (prefers-color-scheme: light) { */
   :root{
     --main-bg-color:  #8c8c8c;
     --main-fg-color: #0D0009;
@@ -16,8 +16,8 @@
     --main-fg-accent-color: #C7C7C7;
     --main-misc-color: #E6A3BA;
   }
-}
-
+/* }
+ */
 /* @media (prefers-color-scheme: dark) {
    :root{
    --main-bg-color: #0e0021;
