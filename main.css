@@ -545,7 +545,7 @@ a{
   visibility: hidden;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 800px) {
   .spacer  {
     display: none !important;
   }
