@@ -18,12 +18,12 @@
   }
 }
 
-@media (prefers-color-scheme: dark) {
-  :root{
-    --main-bg-color: #0e0021;
-    --main-fg-color: white;
-    --main-bg-accent-color: #0e0021;
-    --main-fg-accent-color: #dc5e86;
-    --main-misc-color: #E6A3BA;
-  }
-}
+/* @media (prefers-color-scheme: dark) {
+   :root{
+   --main-bg-color: #0e0021;
+   --main-fg-color: white;
+   --main-bg-accent-color: #0e0021;
+   --main-fg-accent-color: #dc5e86;
+   --main-misc-color: #E6A3BA;
+   }
+   } */
