@@ -8,7 +8,7 @@
   --top-icon-size: Calc(var(--top-text-size) + 2vh);
   --top-height: Calc(var(--top-text-size) + 4vh);
 }
-@media (prefers-color-schemes: light) {
+@media (prefers-color-scheme: light) {
   :root{
     --main-bg-color:  #8c8c8c;
     --main-fg-color: #0D0009;
@@ -18,7 +18,7 @@
   }
 }
 
-@media (prefers-color-schemes: dark) {
+@media (prefers-color-scheme: dark) {
   :root{
     --main-bg-color: #0e0021;
     --main-fg-color: #0D0009;
