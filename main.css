@@ -570,8 +570,7 @@ a{
 
 }
 
-@m
-edia screen and (min-width: 600px) {
+@media screen and (min-width: 600px) {
   img.avatar{
     height: 100%;
     border-top-left-radius: 1vh; /* 5px rounded corners */
