@@ -150,10 +150,6 @@
     <div class="watermarkDiv">
       <img id="watermark" src="img/kase.png" class="watermark"> </img>
     </div>
-    <label class="switch">
-      <input onclick="swapStyleSheet()" id="style" type="checkbox">
-      <span class="slider round"></span>
-    </label>
   </body>
   <script src="run.js"></script>
   <script>
@@ -172,7 +168,7 @@ body.addEventListener("keydown", function (e) {
 });
 function searchURL(e){
   console.log(e);
-  window.location = "https://www.ecosia.org/search?q=" + encodeURIComponent(document.getElementById('search').value);
+  window.location = "https://duckduckgo.com/?q" + encodeURIComponent(document.getElementById('search').value);
 }
   </script>
   <script src="jquery.js"></script>
