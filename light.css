@@ -1,28 +1,32 @@
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300&display=swap');
 
-:root {
-  --main-emphasis-font-family: 'Fira Sans', sans-serif;
-  --main-emphasis-font-weight: 300;
-  --main-text-font-family: 'Fira Sans', sans-serif;
-  --top-text-size: 4vh;
-  --top-icon-size: Calc(var(--top-text-size) + 2vh);
-  --top-height: Calc(var(--top-text-size) + 4vh);
-}
- @media (prefers-color-scheme: light) { */
+@media (prefers-color-scheme: light) {
   :root{
+    --main-emphasis-font-family: 'Fira Sans', sans-serif;
+    --main-emphasis-font-weight: 300;
+    --main-text-font-family: 'Fira Sans', sans-serif;
+    --top-text-size: 4vh;
+    --top-icon-size: Calc(var(--top-text-size) + 2vh);
+    --top-height: Calc(var(--top-text-size) + 4vh);
     --main-bg-color:  #8c8c8c;
     --main-fg-color: #0D0009;
     --main-bg-accent-color: #ffb3cb;
     --main-fg-accent-color: #C7C7C7;
     --main-misc-color: #E6A3BA;
   }
- }
+}
 @media (prefers-color-scheme: dark) {
-   :root{
-     --main-bg-color: #0e0021;
-     --main-fg-color: #0D0009;
-     --main-fg-accent-color: #dc5e86;
-     --main-bg-accent-color: #814e95;
-     --main-misc-color: #E6A3BA;
-   }
+  :root{
+    --main-emphasis-font-family: 'Fira Sans', sans-serif;
+    --main-emphasis-font-weight: 300;
+    --main-text-font-family: 'Fira Sans', sans-serif;
+    --top-text-size: 4vh;
+    --top-icon-size: Calc(var(--top-text-size) + 2vh);
+    --top-height: Calc(var(--top-text-size) + 4vh);
+    --main-bg-color: #0e0021;
+
+    --main-fg-accent-color: #dc5e86;
+    --main-bg-accent-color: #814e95;
+    --main-misc-color: #E6A3BA;
+  }
 }
