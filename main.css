@@ -1,6 +1,5 @@
 * {
-  box-sizing: border-box;
-}
+  box-sizing: border-box;}
 .col-1 {width: 8.33%;}
 .col-2 {width: 16.66%;}
 .col-3 {width: 25%;}
@@ -596,7 +595,7 @@ a{
 #dev:hover, #dev:active { height: 50vh; }
 #mail:hover, #mail:active {height: 35vh; }
 #feeds:hover, #feeds:active {height: 16vh; }
-#media:hover, #media:active {height: 36vh; }
+#media:hover, #media:active {height: 32vh; }
 
 .normal-size {
   font-size: 1.5vh;
